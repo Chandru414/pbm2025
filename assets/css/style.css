@@ -3124,7 +3124,8 @@ body.loaded {
 
 [data-overlay-dark="8"]:before,
 [data-overlay-light="8"]:before {
-  opacity: .8;
+  /* opacity: .8; */
+  opacity: .1;
 }
 
 [data-overlay-dark="9"]:before,
