@@ -3210,6 +3210,7 @@ body.loaded {
 .navbar.change .navbar-nav .nav-link,
 .navbar.change .menu-icon {
   color: #fff;
+  margin:5px 9px;
 }
 
 .navbar.change .search-form .search-icon {
@@ -3257,7 +3258,7 @@ body.loaded {
   font-size: 13px;
   font-weight: 600;
   color: #1a1a1a;
-  padding: 20px 10px 15px 10px;
+  padding: 20px 5px 15px 5px;
   margin: 0 15px;
 }
 
@@ -5624,9 +5625,9 @@ footer.clean-footer.crev:after {
   content: '';
   position: absolute;
   top: 0;
-  left: 40px;
+  left: 0px;
   right: 0;
-  bottom: 40px;
+  bottom: 0px;
   background: #1a1a1a;
   z-index: 2;
 }
@@ -10331,3 +10332,14 @@ footer.clean-footer.crev:before {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+
+.register-btn{
+  background-color: #fff;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+    padding: 5px 9px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
