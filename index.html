@@ -33,6 +33,9 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
 </head>
 
 <body>
@@ -241,14 +244,22 @@
                         </div>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><span class="rolling-text">Home</span></a>
+                        <a class="nav-link active" href="index.html"><span class="">Home</span></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="about.html"><span class="rolling-text">About
                                 Us</span></a>
-                    </li>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" data-toggle="dropdown" href="about.html" role="button"
+                            aria-haspopup="true" aria-expanded="false"><span class="">About</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about.html">About PBM Dubai 2025</a>
+                            <a class="dropdown-item" href="aboutWalt.html">About WALT</a>
+                        </div>
+                    </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="speakers.html"><span class="rolling-text">Speakers</span></a>
+                        <a class="nav-link" href="speakers.html"><span class="">Speakers</span></a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -268,17 +279,17 @@
                         <a class="nav-link" href="index.html"><span class="rolling-text">Program</span></a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="exhibitors.html"><span class="rolling-text">Exhibitors</span></a>
+                        <a class="nav-link" href="exhibitors.html"><span class="">Exhibitors</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="abstracts.html"><span class="rolling-text">Abstracts</span></a>
+                        <a class="nav-link" href="abstracts.html"><span class="">Abstracts</span></a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="program.html"><span class="rolling-text">Program</span></a>
+                        <a class="nav-link" href="program.html"><span class="">Program</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="accomodation.html"><span class="rolling-text">Accomodation</span></a>
+                        <a class="nav-link" href="accomodation.html"><span class="">Accomodation</span></a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -295,7 +306,7 @@
                         <a class="nav-link" href="index.html"><span class="rolling-text">Accomodation</span></a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><span class="rolling-text">Contact</span></a>
+                        <a class="nav-link" href="contact.html"><span class="">Contact</span></a>
                     </li>
                 </ul>
             </div>
@@ -678,11 +689,11 @@
                 <!-- ==================== Start Header ==================== -->
 
                 <header class="main-header bg-img" data-background="assets/imgs/homebg.jpeg" data-overlay-dark="8" style="height: calc(100vh + 110px);">
-                    <div class="container">
+                    <div class="container ml-0">
                         <div class="row justify-content-start">
-                            <div class="col-lg-6" style="margin-left: 92px;">
-                                <div class="d-flex mb-30 ml-40">
-                                    <h1>COMING <br>SOON...</h1>
+                            <div class="col-lg-6" style="margin-left: 50px;">
+                                <div class="d-flex mb-30 ml-0">
+                                    <h4 class=" quattrocento-regular"  style="color: #d43ba8;">COMING SOON...</h4>
                                 </div>
                             </div>
                         </div>
@@ -700,16 +711,27 @@ PHOTOBIOMODULATION THERAPY PRESENTS</h4>
                     <div class="container-fluid ontop pt-50">
                         <div class="container d-flex justify-content-center">
                             <div class="lg-text">
-                                <div class="d-flex justify-content-center">
-                                    <h5 style="font-size: 24px;">PHOTO BIO MODULATION WORLD CONGRESS</h5>
+                                <div class="d-flex justify-content-start">
+                                    <h5 class="light-text-pink  quattrocento-regular" style="font-size: 20px;color: #d038ab;font-weight: bold;">PHOTO BIO MODULATION<br> WORLD CONGRESS</h5>
                                     <!-- <h6 class="ml-auto">PRESENTS</h6> -->
                                 </div>
-                                <h1 style="line-height: 0.8;">PBM DUBAI<br> <span style="margin-left: 22rem;">2025</span></h1>
+                                <h1 class="light-text quattrocento-regular" style="line-height: 0.8;text-transform: capitalize;">PBM Dubai<br> 
+                                    <span class="light-text-number quattrocento-regular" style="margin-left: 22rem;">2025</span></h1>
                             </div>
                         </div>
                         <!-- <div class="img">
                             <img src="assets/imgs/homebg.jpeg" alt="">
                         </div> -->
+                    </div>
+
+                    <div class="container-fluid ontop pt-50 mr-0">
+                        <div class="container d-flex justify-content-end">
+                            <div class="lg-text">
+                                <div class="d-flex justify-content-end mt-40">
+                                <h4 class=" quattrocento-regular" style="color: #4fcce8;">STAY TUNED...</h4>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </header>
 
@@ -719,7 +741,7 @@ PHOTOBIOMODULATION THERAPY PRESENTS</h4>
 
                 <!-- ==================== Start intro ==================== -->
 
-                <section class="intro section-padding position-re">
+                <!-- <section class="intro section-padding position-re">
                     <div class="container">
                         <div class="row justify-content-between">
                             <div class="col-lg-6">
@@ -820,7 +842,7 @@ PHOTOBIOMODULATION THERAPY PRESENTS</h4>
                                 style="stroke-dasharray: 3246.53, 0;"></path>
                         </svg>
                     </div>
-                </section>
+                </section> -->
 
                 <!-- ==================== End intro ==================== -->
 
