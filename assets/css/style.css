@@ -10346,12 +10346,12 @@ footer.clean-footer.crev:before {
 
 
 .navbar.change .navbar-nav .nav-link:hover{
-  color:#c739ab;
+  color:#e70388;
   cursor: pointer;
 }
 
 .navbar.change .navbar-nav .active{
-  color:#c739ab;
+  color:#e70388;
   font-weight: bold;
 }
 
