@@ -3051,7 +3051,7 @@ body.loaded {
 }
 
 [data-overlay-dark]:before {
-  background: #1d1d1d;
+  /* background: #1d1d1d; */
 }
 
 [data-overlay-light]:before {
