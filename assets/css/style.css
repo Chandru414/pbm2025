@@ -3611,7 +3611,8 @@ body.loaded {
 .hamenu .menu-links {
   color: #1a1a1a;
   height: 100vh;
-  padding-top: 140px;
+  /* padding-top: 140px; */
+  padding-top: 104px;
   overflow: auto;
 }
 
@@ -3650,7 +3651,8 @@ body.loaded {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
+  padding: 20px 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   width: 100%;
   position: relative;
@@ -10715,6 +10717,11 @@ footer.clean-footer.crev:before {
   .showMenuInMobileView{
     display: none!important;
   }
+
+  .homePageLogo{
+   height: 2.5rem;
+   width: auto; 
+  }
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10756,5 +10763,11 @@ footer.clean-footer.crev:before {
   }
   .hideMenuInMobileView{
     display: none!important;
+  }
+  .homePageLogo{
+   height: 2.5rem;
+   width: auto; 
+   margin-left: 8%;
+        margin-top: 5%;
   }
 }
