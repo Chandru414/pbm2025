@@ -5359,7 +5359,8 @@ body.loaded {
 }
 
 .contact .info-box {
-  padding: 80px 40px;
+  /* padding: 80px 40px; */
+   padding: 49px 40px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   position: relative;
