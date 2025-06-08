@@ -10770,4 +10770,25 @@ footer.clean-footer.crev:before {
    margin-left: 8%;
         margin-top: 5%;
   }
+  .hideSectionInMobileView{
+    display:none!important;
+  }
+
+  .venueColorInMobileView{
+    color: #fff;
+    margin-left: 4rem;
+  }
+
+  .venueTextColorInMobileView{
+    color:#fff;
+    font-weight: bold!important;
+  }
+
+  .eventsBgColorForMobileView{
+    background-color: #fff;
+  }
+
+  .exploreDubaiBgColor{
+    background-color: #fff;
+  }
 }
