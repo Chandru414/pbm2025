@@ -10685,3 +10685,57 @@ footer.clean-footer.crev:before {
 }
 
 /* register button end */
+
+
+.homePageHeader{
+  line-height: 1;
+  text-transform: capitalize;
+  font-size: 5.313rem !important;
+}
+.homePageHeaderDubai{
+    font-size: 5.313rem !important;
+    margin-left: 22rem;
+  }
+  .homePageHeaderPBM{
+    font-size: 20px;
+    color: #ff8cdc;
+    font-weight: bold;
+  }
+  .headerComingSoon{
+    margin-left: 50px;
+  }
+  .homePageHeaderStayTuned{
+
+  }
+@media screen and (max-width: 768px){
+  .homePageHeader{
+    font-size: 3.13rem !important;
+  }
+  .homePageHeaderDubai{
+    margin-left: 11rem;
+    font-size: 3.13rem !important;
+  }
+  .homePageHeaderPBM{
+    font-size: 25px;
+    color: #ff8cdc;
+    font-weight: bold;
+  }
+  .main-header .lg-text .d-flex .subheaderHomePage{
+    display: block !important;
+  }
+  .headerMarginMobileView{
+    margin-top: 2rem!important;
+  }
+  .headerComingSoon{
+    margin-left: 6rem;
+    margin-top: 8rem;
+  }
+  .homePageHeaderStayTuned{
+    display: block!important;
+    justify-content: center !important;
+  }
+  .homePageHeaderStayTunedPosition{
+    display: block!important;
+    justify-content: center !important;
+  }
+}
