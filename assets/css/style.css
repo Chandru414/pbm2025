@@ -3666,7 +3666,8 @@ body.loaded {
 
 .hamenu .menu-links .main-menu > li .link i {
   position: absolute;
-  width: 90px;
+  /* width: 90px; */
+  width: 67px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -3678,7 +3679,8 @@ body.loaded {
   width: 1px;
   height: 16px;
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
+  top: 40%;
   left: 50%;
   background: #1a1a1a;
 }
@@ -3688,7 +3690,8 @@ body.loaded {
   width: 16px;
   height: 1px;
   position: absolute;
-  top: calc(50% + 8px);
+  /* top: calc(50% + 8px); */
+  top: calc(38% + 8px);
   left: calc(50% - 8px);
   background: #1a1a1a;
 }
@@ -9891,7 +9894,8 @@ footer.clean-footer.crev:before {
     right: 25px;
   }
   .hamenu .menu-links .main-menu > li .link {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 21px;
   }
   .hamenu .menu-links .main-menu > li .sub-dmenu {
     font-size: 24px;
@@ -10707,16 +10711,23 @@ footer.clean-footer.crev:before {
   .homePageHeaderStayTuned{
 
   }
+  
+  .showMenuInMobileView{
+    display: none!important;
+  }
 @media screen and (max-width: 768px){
   .homePageHeader{
-    font-size: 3.13rem !important;
+    /* font-size: 3.13rem !important; */
+    font-size: 2.7rem !important;
   }
   .homePageHeaderDubai{
-    margin-left: 11rem;
-    font-size: 3.13rem !important;
+    /* margin-left: 11rem; */
+    /* font-size: 3.13rem !important; */
+    margin-left: 57%;
+    font-size: 2.7rem !important;
   }
   .homePageHeaderPBM{
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #ff8cdc;
     font-weight: bold;
   }
@@ -10727,8 +10738,10 @@ footer.clean-footer.crev:before {
     margin-top: 2rem!important;
   }
   .headerComingSoon{
-    margin-left: 6rem;
-    margin-top: 8rem;
+    /* margin-left: 6rem;
+    margin-top: 8rem; */
+    margin-left: 20%;
+    margin-top: 18%;
   }
   .homePageHeaderStayTuned{
     display: block!important;
@@ -10737,5 +10750,11 @@ footer.clean-footer.crev:before {
   .homePageHeaderStayTunedPosition{
     display: block!important;
     justify-content: center !important;
+  }
+  .showMenuInMobileView{
+    display: block!important;
+  }
+  .hideMenuInMobileView{
+    display: none!important;
   }
 }
