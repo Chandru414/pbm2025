@@ -10865,4 +10865,12 @@ footer.clean-footer.crev:before {
     background-image: url('assets/imgs/mobileBgHome.jpg');
     height: calc(100vh - 40px) !important;
   }
+
+  .contactMobileViewHeight{
+height: 18rem;
+  }
+
+  .contactMobileViewPageHeader{
+    padding-top: 1rem !important;
+  }
 }
