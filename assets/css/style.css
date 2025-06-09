@@ -10727,6 +10727,15 @@ footer.clean-footer.crev:before {
   .venueShortContentForMobileView{
     display: none !important;
   }
+
+  .exploreDubaiParentMarginMobileView{
+    margin-bottom: 80px !important;
+  }
+
+  .footerIconLogoPlacement{
+    width: 150px;
+    margin-left: 2.8rem;
+  }
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10796,6 +10805,7 @@ footer.clean-footer.crev:before {
 
   .exploreDubaiBgColor{
     background-color: #fff;
+    padding-bottom: 10px;
   }
 
   .venueShortContentForMobileView{
@@ -10813,5 +10823,21 @@ footer.clean-footer.crev:before {
 
   .exploreDubaiParentHeightInMobileView{
     height: 22rem;
+  }
+
+  .exploreDubaiParentMarginMobileView{
+    margin-bottom: 20px !important;
+  }
+
+  .footerLogoMobileView{
+    display: flex;
+  }
+
+  .footerCpAlignment{
+    margin-top: 0 !important;
+  }
+
+  .footerCpFontSize{
+    font-size: 11px !important;
   }
 }
