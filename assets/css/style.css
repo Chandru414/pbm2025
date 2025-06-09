@@ -10736,6 +10736,14 @@ footer.clean-footer.crev:before {
     width: 150px;
     margin-left: 2.8rem;
   }
+
+  .sectionQuoteAuthorName{
+        text-align: end;
+    margin-right: 14rem;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 13px;
+  }
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10839,5 +10847,10 @@ footer.clean-footer.crev:before {
 
   .footerCpFontSize{
     font-size: 11px !important;
+  }
+
+  .sectionQuoteAuthorName{
+        margin-right: 25px;
+    font-size: 24px;
   }
 }
