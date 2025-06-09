@@ -10744,6 +10744,14 @@ footer.clean-footer.crev:before {
     font-size: 32px;
     margin-top: 13px;
   }
+
+  
+  .main-header.bg-img {
+  background-image: url('assets/imgs/bgHome.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10852,5 +10860,9 @@ footer.clean-footer.crev:before {
   .sectionQuoteAuthorName{
         margin-right: 25px;
     font-size: 24px;
+  }
+  .main-header.bg-img {
+    background-image: url('assets/imgs/mobileBgHome.jpg');
+    height: calc(100vh - 40px) !important;
   }
 }
