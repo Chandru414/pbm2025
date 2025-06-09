@@ -10752,6 +10752,10 @@ footer.clean-footer.crev:before {
   background-position: center;
 }
 
+.clean-footer .bg-img{
+    background-image: url('assets/imgs/bgImgFooter.jpg');
+  }
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10872,5 +10876,12 @@ height: 18rem;
 
   .contactMobileViewPageHeader{
     padding-top: 1rem !important;
+  }
+  .mobileViewExpressSectionPadding{
+    padding-top: 50px !important;
+  }
+
+  .clean-footer .bg-img{
+    background-image: url('assets/imgs/mobileBgFooter.jpg');
   }
 }
