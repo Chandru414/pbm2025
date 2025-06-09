@@ -10783,6 +10783,7 @@ footer.clean-footer.crev:before {
   .venueTextColorInMobileView{
     color:#fff;
     font-weight: bold!important;
+    display: none;
   }
 
   .eventsBgColorForMobileView{
@@ -10791,5 +10792,10 @@ footer.clean-footer.crev:before {
 
   .exploreDubaiBgColor{
     background-color: #fff;
+  }
+
+  .venueShortContentForMobileView{
+    padding-left: 15rem;
+        color: #fff;
   }
 }
