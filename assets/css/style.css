@@ -10723,6 +10723,10 @@ footer.clean-footer.crev:before {
    height: 2.5rem;
    width: auto; 
   }
+
+  .venueShortContentForMobileView{
+    display: none !important;
+  }
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10797,5 +10801,17 @@ footer.clean-footer.crev:before {
   .venueShortContentForMobileView{
     padding-left: 15rem;
         color: #fff;
+  }
+
+  .venueShortContentForMobileView{
+    display: block !important;
+  }
+
+  .exploreDubaiImageOnMobile{
+      height: 19rem;
+  }
+
+  .exploreDubaiParentHeightInMobileView{
+    height: 22rem;
   }
 }
