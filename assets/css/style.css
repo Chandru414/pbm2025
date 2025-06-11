@@ -10768,6 +10768,11 @@ footer.clean-footer.crev:before {
   display: none !important;
 }
 
+.homeEventMainDiv{
+    top: 0px !important;
+    left: 4px !important;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10883,7 +10888,7 @@ footer.clean-footer.crev:before {
   }
 
   .contactMobileViewHeight{
-height: 18rem;
+    height: 18rem;
   }
 
   .contactMobileViewPageHeader{
