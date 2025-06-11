@@ -10756,6 +10756,14 @@ footer.clean-footer.crev:before {
     background-image: url('assets/imgs/bgImgFooter.jpg');
   }
 
+.venueMobileViewPadding{
+  padding-top: 1rem;padding-left: 10rem;
+}
+
+.subtextForVenue{
+  font-size:0.8rem!important;color: #fff;opacity: 1!important;padding-top: 10px;padding-left: 6rem;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10810,7 +10818,7 @@ footer.clean-footer.crev:before {
 
   .venueColorInMobileView{
     color: #fff;
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
 
   .venueTextColorInMobileView{
@@ -10829,7 +10837,7 @@ footer.clean-footer.crev:before {
   }
 
   .venueShortContentForMobileView{
-    padding-left: 15rem;
+    padding-left: 1rem;
         color: #fff;
   }
 
@@ -10883,5 +10891,13 @@ height: 18rem;
 
   .clean-footer .bg-img{
     background-image: url('assets/imgs/mobileBgFooter.jpg');
+  }
+
+  .venueMobileViewPadding{
+      padding-top: 1rem;padding-left: 1rem;
+  }
+
+  .subtextForVenue{
+    font-size:0.8rem!important;color: #fff;opacity: 1!important;padding-top: 10px;padding-left: 2rem;
   }
 }
