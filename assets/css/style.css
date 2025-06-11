@@ -10764,6 +10764,10 @@ footer.clean-footer.crev:before {
   font-size:0.8rem!important;color: #fff;opacity: 1!important;padding-top: 10px;padding-left: 6rem;
 }
 
+.footerContactShowOnlyInMobileView{
+  display: none !important;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10899,5 +10903,17 @@ height: 18rem;
 
   .subtextForVenue{
     font-size:0.8rem!important;color: #fff;opacity: 1!important;padding-top: 10px;padding-left: 2rem;
+  }
+
+  .hideFooterContactInMobileView{
+    display: none;
+  }
+
+  .footerSocialMediaHeaderMobileView{
+    margin-left: 0 !important;
+  }
+
+  .footerContactShowOnlyInMobileView{
+    display: block !important;
   }
 }
