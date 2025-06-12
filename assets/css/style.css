@@ -10792,6 +10792,23 @@ footer.clean-footer.crev:before {
   color: #fff;
 }
 
+.venueKnowMoreBtn:hover{
+  color: #fff;
+  background: #ea0e8f!important;
+}
+
+.homeBannerKnowMoreBtn{
+  padding: 5px 20px!important;
+  margin-top: 3rem!important;
+  color: #fff!important;
+  border: 2px solid #fff!important;
+}
+
+.homeBannerKnowMoreBtn:hover{
+  color: #fff!important;
+  background: #ea0e8f!important;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -10827,6 +10844,7 @@ footer.clean-footer.crev:before {
   .homePageHeaderStayTunedPosition{
     display: block!important;
     justify-content: center !important;
+    margin-top: 2rem;
   }
   .showMenuInMobileView{
     display: block!important;
