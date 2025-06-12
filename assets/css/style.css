@@ -5515,8 +5515,8 @@ body.loaded {
   height: 450px;
   width: 100%;
   position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(00%);
+  filter: grayscale(00%)!important;
 }
 
 .google-map iframe {
@@ -10720,7 +10720,7 @@ footer.clean-footer.crev:before {
   }
 
   .homePageLogo{
-   height: 2.5rem;
+   height: 3rem;
    width: auto; 
   }
 
@@ -10747,7 +10747,7 @@ footer.clean-footer.crev:before {
 
   
   .main-header.bg-img {
-  background-image: url('assets/imgs/bgHome.jpg');
+  background-image: url('assets/imgs/bgHomeFinal.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -10782,6 +10782,14 @@ footer.clean-footer.crev:before {
 .homePageCabMetroBtn:hover{
       background: #ea0e8f!important;
       color:#fff;
+}
+
+.submit-btn:hover{
+  background: #ea0e8f!important;
+}
+
+.venueKnowMoreBtn{
+  color: #fff;
 }
 
 @media screen and (max-width: 768px){
