@@ -3907,6 +3907,7 @@ body.loaded {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: bold !important;
 }
 
 .numb-font {
@@ -10739,7 +10740,8 @@ footer.clean-footer.crev:before {
   }
 
   .footerIconLogoPlacement{
-    width: 150px;
+    /* width: 150px; */
+    width: 200px;
     margin-left: 2.8rem;
   }
 
