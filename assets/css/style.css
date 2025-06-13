@@ -10856,6 +10856,10 @@ border:2px solid #000!important;
 padding: 0 12rem;font-size: 45px !important;
 }
 
+.marginForSwiperWrapper{
+  margin-left: 7.5rem;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -11012,6 +11016,9 @@ padding: 0 12rem;font-size: 45px !important;
   .homeBgImageWithContentOnTop{
   padding: 0 3rem;
     font-size: 25px !important;
+}
+.marginForSwiperWrapper{
+  margin-left: 2.6rem;
 }
 }
 
