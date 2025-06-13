@@ -3233,7 +3233,8 @@ body.loaded {
 
 .navbar.change.nav-scroll .navbar-nav .nav-link,
 .navbar.change.nav-scroll .menu-icon {
-  color: #1a1a1a;
+  /* color: #1a1a1a; */
+  color: #ffffff;
 }
 
 .navbar.change.nav-scroll .search-form .search-icon {
@@ -3245,7 +3246,8 @@ body.loaded {
 }
 
 .navbar.nav-scroll {
-  background: #fff;
+  /* background: #fff; */
+  background: #00062b;
   border-color: rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -10704,10 +10706,12 @@ footer.clean-footer.crev:before {
 .homePageHeader{
   line-height: 1;
   text-transform: capitalize;
-  font-size: 5.313rem !important;
+  /* font-size: 5.313rem !important; */
+  font-size: 4.8rem !important;
 }
 .homePageHeaderDubai{
-    font-size: 5.313rem !important;
+    /* font-size: 5.313rem !important; */
+    font-size: 4.8rem !important;
     /* margin-left: 22rem; */
     margin-left: 37.5rem;
   }
@@ -10810,7 +10814,8 @@ footer.clean-footer.crev:before {
 }
 
 .homeBannerKnowMoreBtn{
-  padding: 5px 20px!important;
+  /* padding: 5px 20px!important; */
+  padding: 8px 60px!important;
   margin-top: 3rem!important;
   color: #fff!important;
   border: 2px solid #fff!important;
