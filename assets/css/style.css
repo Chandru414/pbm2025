@@ -2919,6 +2919,10 @@ img.left {
   padding-left: 50px;
 }
 
+.fw-bold{
+  font-weight: bold;
+}
+
 /* ====================== [ End Helper Classes  ] ====================== */
 /* Preloader
 -----------------------------------------------------------------*/
@@ -5316,7 +5320,8 @@ body.loaded {
 .img-scale .image img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: fill;
   -o-object-position: center center;
   object-position: center center;
 }
@@ -5347,6 +5352,7 @@ body.loaded {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
+  font-weight: bold;
 }
 
 .contact input:focus,
@@ -10757,7 +10763,9 @@ footer.clean-footer.crev:before {
   }
 
 .venueMobileViewPadding{
-  padding-top: 1rem;padding-left: 10rem;
+  padding-top: 1rem;
+      padding-left: 10rem;
+    padding-right: 3rem;
 }
 
 .subtextForVenue{
@@ -10807,6 +10815,32 @@ footer.clean-footer.crev:before {
 .homeBannerKnowMoreBtn:hover{
   color: #fff!important;
   background: #ea0e8f!important;
+}
+
+.homePageWhatappBtn{
+  background-color: #25d366!important;
+  color:#fff!important;
+  font-weight: bold;
+}
+
+.homePageWhatappBtn:hover{
+  background-color: #25d366!important;
+  color:#fff!important;
+  font-weight: bold;
+}
+
+.homePageEmailBtn{
+background-color: #fff!important;
+color: #000!important;
+font-weight: bold;
+border:1px solid #000!important;
+}
+
+.homePageEmailBtn:hover{
+background-color: #000!important;
+color: #fff!important;
+font-weight: bold;
+border:1px solid #000!important;
 }
 
 @media screen and (max-width: 768px){
@@ -10963,3 +10997,4 @@ footer.clean-footer.crev:before {
         background: #fff;
   }
 }
+
