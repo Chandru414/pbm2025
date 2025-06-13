@@ -5323,8 +5323,8 @@ body.loaded {
 .img-scale .image img {
   width: 100%;
   -o-object-fit: cover;
-  /* object-fit: cover; */
-  object-fit: fill;
+  object-fit: cover;
+  /* object-fit: fill; */
   -o-object-position: center center;
   object-position: center center;
 }
@@ -10852,6 +10852,10 @@ font-weight: bold;
 border:2px solid #000!important;
 }
 
+.homeBgImageWithContentOnTop{
+padding: 0 12rem;font-size: 45px !important;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
@@ -11005,5 +11009,9 @@ border:2px solid #000!important;
   .homePageCabMetroBtnParentMobileView{
         background: #fff;
   }
+  .homeBgImageWithContentOnTop{
+  padding: 0 3rem;
+    font-size: 25px !important;
+}
 }
 
