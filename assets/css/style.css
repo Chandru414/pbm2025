@@ -10708,10 +10708,11 @@ footer.clean-footer.crev:before {
 }
 .homePageHeaderDubai{
     font-size: 5.313rem !important;
-    margin-left: 22rem;
+    /* margin-left: 22rem; */
+    margin-left: 37.5rem;
   }
   .homePageHeaderPBM{
-    font-size: 20px;
+    font-size: 28px;
     color: #ff8cdc;
     font-weight: bold;
   }
@@ -10787,6 +10788,7 @@ footer.clean-footer.crev:before {
   border-color: #ea0e8f !important;
     background: transparent;
     color: #ea0e8f !important;
+    border:2px solid #ea0e8f!important;
 }
 
 .homePageCabMetroBtn:hover{
@@ -10835,14 +10837,14 @@ footer.clean-footer.crev:before {
 background-color: #fff!important;
 color: #000!important;
 font-weight: bold;
-border:1px solid #000!important;
+border:2px solid #000!important;
 }
 
 .homePageEmailBtn:hover{
 background-color: #000!important;
 color: #fff!important;
 font-weight: bold;
-border:1px solid #000!important;
+border:2px solid #000!important;
 }
 
 @media screen and (max-width: 768px){
