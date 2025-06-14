@@ -10860,16 +10860,37 @@ padding: 0 12rem;font-size: 45px !important;
   margin-left: 7.5rem;
 }
 
+.hideFooterContactInMobileView{
+    /* display: none; */
+    padding-left: 7rem;
+  }
+
+  .footerLogoMobileView{
+    display: flex;align-items: start;flex-direction: column;justify-content: center;
+  }
+
+  .showForDesktopOnly{
+  display: block !important;
+}
+
+.showForMobileOnly{
+  display: none!important;
+}
+
+.homePageExpressFontForMobile{
+  font-size: 28px !important;
+}
+
 @media screen and (max-width: 768px){
   .homePageHeader{
     /* font-size: 3.13rem !important; */
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
   }
   .homePageHeaderDubai{
     /* margin-left: 11rem; */
     /* font-size: 3.13rem !important; */
-    margin-left: 57%;
-    font-size: 2.7rem !important;
+    margin-left: calc(100vw - 39%);
+    font-size: 2rem !important;
   }
   .homePageHeaderPBM{
     font-size: 1.5rem;
@@ -10880,13 +10901,16 @@ padding: 0 12rem;font-size: 45px !important;
     display: block !important;
   }
   .headerMarginMobileView{
-    margin-top: 2rem!important;
+    /* margin-top: 2rem!important; */
+    margin-top: 33%!important;
   }
   .headerComingSoon{
     /* margin-left: 6rem;
     margin-top: 8rem; */
-    margin-left: 20%;
-    margin-top: 18%;
+    /* margin-left: 20%;
+    margin-top: 18%; */
+    margin-left: 18%;
+    margin-top: 0%;
   }
   .homePageHeaderStayTuned{
     display: block!important;
@@ -10895,7 +10919,8 @@ padding: 0 12rem;font-size: 45px !important;
   .homePageHeaderStayTunedPosition{
     display: block!important;
     justify-content: center !important;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    margin-top: 50%;
   }
   .showMenuInMobileView{
     display: block!important;
@@ -10955,7 +10980,7 @@ padding: 0 12rem;font-size: 45px !important;
   }
 
   .footerLogoMobileView{
-    display: flex;
+    display: flex;align-items: center!important;flex-direction: column;justify-content: center;
   }
 
   .footerCpAlignment{
@@ -10999,7 +11024,8 @@ padding: 0 12rem;font-size: 45px !important;
   }
 
   .hideFooterContactInMobileView{
-    display: none;
+    /* display: none; */
+    padding-left: 1rem;
   }
 
   .footerSocialMediaHeaderMobileView{
@@ -11018,7 +11044,28 @@ padding: 0 12rem;font-size: 45px !important;
     font-size: 25px !important;
 }
 .marginForSwiperWrapper{
-  margin-left: 2.6rem;
+  /* margin-left: 2.6rem; */
+  /* margin-left: 2%; */
+  margin-left: calc(100vw + 17px);
+}
+
+.homePageExpressFontForMobile{
+  font-size: 24px !important;
+}
+.showForDesktopOnly{
+  display: none !important;
+}
+
+.showForMobileOnly{
+  display: block!important;
+}
+
+.homePageEmailBtn{
+  padding: 12px 22px !important;
+}
+
+.homePageCabMetroBtn{
+    padding: 12px 20px !important;
 }
 }
 
